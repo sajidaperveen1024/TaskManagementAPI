@@ -23,6 +23,7 @@ builder.Services.AddCors(options =>
 });
 
 
+
 builder.Services.AddEndpointsApiExplorer();
 // Swagger for title edit
 builder.Services.AddSwaggerGen(c =>
