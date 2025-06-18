@@ -4,6 +4,7 @@ using TaskManagementAPI.Models.Tables;
 
 namespace TaskManagementAPI.Models
 {
+
     public class TaskManagerDbContext : DbContext
     {
         /// <summary>
