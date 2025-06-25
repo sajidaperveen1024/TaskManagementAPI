@@ -61,7 +61,6 @@ namespace TaskManagementAPI.Controllers
         {
             // Call the service to update the task.
             var response = await _taskService.UpdateTask(task);
-
             // Return the response with the appropriate status code.
             return StatusCode(response.StatusCode, response);
         }
