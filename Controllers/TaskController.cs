@@ -94,7 +94,6 @@ namespace TaskManagementAPI.Controllers
             // Call the service to delete the task by ID.
             var response = await _taskService.DeleteTask(input.Id);
 
-
             // Return the response with the appropriate status code.
             return StatusCode(response.StatusCode, response);
         }
